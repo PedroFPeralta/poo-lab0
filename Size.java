@@ -1,3 +1,8 @@
+/**
+ * 
+ * Enumerado Size, contem os varios tamanhos das chavenas
+ * 
+ */
 public enum Size{
 
     SMALL(32, 36, "Pequeno",'S'),
