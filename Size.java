@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 /**
  * 
  * Enumerado Size, contem os varios tamanhos das chavenas
@@ -17,7 +19,7 @@ public enum Size{
 
     private final char code;
 
-    private Size(int minValue, int maxValue, String description, char code){
+    Size(int minValue, int maxValue, String description, char code){
         this.description=description;
         this.minValue=minValue;
         this.maxValue=maxValue;
@@ -30,7 +32,7 @@ public enum Size{
     }
 
     public String getDescription() {
-        return description;
+        return description.toUpperCase();
     }
 
     public int getMinValue() {

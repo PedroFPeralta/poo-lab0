@@ -16,7 +16,6 @@ public class AppStart
         System.out.println("Valor Minimo \t: " + size1.getMinValue());
         System.out.println("Valor Maximo \t: " + size1.getMaxValue());
         System.out.println("Código \t\t: " + size1.getCode());
-        
 
     }
 }
